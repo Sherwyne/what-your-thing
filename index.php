@@ -54,7 +54,7 @@
     <div class="preloader"></div>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-hidden">
+    <!-- <nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-hidden">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -70,12 +70,12 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#top">Home</a></li>
                     <li><a href="#speakers">Speakers</a></li>
-                    <!-- <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#sponsors" class="hidden-sm">Sponsors</a></li>
                     <li><a href="#venue" class="hidden-sm">Venue</a></li> 
-                    <li><a href="#contact">Contact</a></li> -->
-                    <!-- <li class="dropdown">
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="shortcodes.html">Shortcodes</a></li>
@@ -94,12 +94,12 @@
                             <li><a href="index-mailchimp.html">Mailchimp Subscription</a></li>
                             <li><a href="index-eventbrite.html">Eventbrite Integration</a></li>
                         </ul>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
+            #nav-collapse
         </div>
-    </nav>
+    </nav> -->
     <!-- // End Fixed navbar -->
 
     <header id="top" class="header">
