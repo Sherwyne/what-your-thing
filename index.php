@@ -70,7 +70,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#top">Home</a></li>
                     <li><a href="#speakers">Speakers</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
                     <!-- <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#sponsors" class="hidden-sm">Sponsors</a></li>
@@ -292,30 +291,30 @@
                         <div class="col-sm-6">
                             <div class="benefit-item wow fadeInLeft">
                                 <div class="benefit-icon"><i class="icon icon-bubble-love-streamline-talk"> </i></div>
-                                <h6 class="benefit-title">One great night</h6>
-                                <p>We’re honoured to have 4 amazing industry experts Mike Kus, Jeremy Keith, Robin Christopherson and Sarah Parmenter!</p>
+                                <h6 class="benefit-title">Benefit 1</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="benefit-item wow fadeInRight">
                                 <div class="benefit-icon"><i class="icon icon-map-pin-streamline"> </i></div>
-                                <h6 class="benefit-title">Location</h6>
-                                <p>Altitude will be held at The Spinnaker Tower in Portsmouth. 100 metres above the sea. The views from the top are breathtaking!</p>
+                                <h6 class="benefit-title">Benefit 2</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="benefit-item wow fadeInLeft">
                                 <div class="benefit-icon"> <i class="icon icon-cocktail-mojito-streamline"> </i></div>
-                                <h6 class="benefit-title">Free food and drink!</h6>
-                                <p>With the help of our amazing sponsors we will be providing every guest 2 free drinks and cocktail canapés on the night!</p>
+                                <h6 class="benefit-title">Benefit 3</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="benefit-item wow fadeInRight">
                                 <div class="benefit-icon"> <i class="icon icon-armchair-chair-streamline"> </i></div>
-                                <h6 class="benefit-title">Accommodation</h6>
-                                <p>We’ve secured a great deal with a local five star hotel, and compiled a list of some other hotels in the area for a pleasant stay.</p>
+                                <h6 class="benefit-title">Benefit 1</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
                             </div>
                         </div>
                     </div>
@@ -377,7 +376,7 @@
 
                     <div class="registration-form">
 
-                        <form action="php/register.php" method="POST" target="_top" id="email-registration-form" data-redirect="success.html">
+                        <form action="php/register.php" method="POST" target="_top" id="email-registration-form" data-redirect="success.php">
 
                             <div class="row">
 

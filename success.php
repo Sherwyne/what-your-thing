@@ -10,7 +10,7 @@ URI     : http://themeforest.net/user/surjithctly
 Copyright © All rights Reserved
 Surjith S M / @surjithctly
 
- -->
+-->
 
 <head>
     <meta charset="utf-8">
@@ -52,8 +52,8 @@ Surjith S M / @surjithctly
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-  <script src="js/ie/respond.min.js"></script>
-  <![endif]-->
+<script src="js/ie/respond.min.js"></script>
+<![endif]-->
 
     <!-- Modernizr -->
     <script src="js/modernizr.min.js"></script>
@@ -83,7 +83,7 @@ Surjith S M / @surjithctly
     </main>
     <!-- //   Header Ends -->
 
-    <p class="text-center"><a href="index.html" class="btn btn-success btn-lg">Back To Home</a></p>
+    <p class="text-center"><a href="index.php" class="btn btn-success btn-lg">Back To Home</a></p>
 
     <!-- Container -->
     <div class="container">
@@ -103,14 +103,14 @@ Surjith S M / @surjithctly
             <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
             <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
         </div>
-        <p> <small class="text-muted">Copyright © 2020. All rights reserved.</small></p>
+        <p> <small class="text-muted">Copyright © 2020. All rights reserved. <a href="lpophillipines.net">LPO Philippines</small></p>
 
     </footer>
 
 
     <!-- 
-     Javascripts : Nerd Stuff :)
-     ====================================== -->
+    Javascripts : Nerd Stuff :)
+    ====================================== -->
 
     <!-- jQuery Library -->
     <script src="js/jquery.min.js"></script>

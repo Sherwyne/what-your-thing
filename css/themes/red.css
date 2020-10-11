@@ -95,8 +95,8 @@ a:focus,
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #FFF;
-    background-color: #ff7702;
+    background-color: #FFF;
+    border-bottom: 3px solid#ff7702;
 }
 /*border*/
 
@@ -109,7 +109,7 @@ a:focus,
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
-    background-color: #ff7702;
+    border-bottom: 3px solid#ff7702;
 }
 /* 
   BUTTONS
