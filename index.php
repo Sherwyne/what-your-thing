@@ -170,14 +170,14 @@
                 <span class="addtocalendar atc-style-theme">
                 <a class="atcb-link"><i class="fa fa-calendar"> </i> Add to My Calendar</a>
                   <var class="atc_event">
-                      <var class="atc_date_start">2016-05-04 12:00:00</var>
-                      <var class="atc_date_end">2016-05-04 18:00:00</var>
-                      <var class="atc_timezone">Europe/London</var>
-                      <var class="atc_title">Gather Event template</var>
-                      <var class="atc_description">Gather is a responsive event template with many awesome features including add to my calendar feature. Awesome. huh?</var>
-                      <var class="atc_location">Stockholm, Sweden</var>
-                      <var class="atc_organizer">Surjith S M</var>
-                      <var class="atc_organizer_email">test@surjithctly.in</var>
+                      <var class="atc_date_start">2020-11-09 00:00:00</var>
+                      <var class="atc_date_end">2020-11-09 24:00:00</var>
+                      <var class="atc_timezone">Philippines/Singapore</var>
+                      <var class="atc_title">What's Your Thing | ING Event</var>
+                      <var class="atc_description">What's your thing is an event from ING</var>
+                      <var class="atc_location">Philippines, Manila</var>
+                      <var class="atc_organizer">ING</var>
+                      <var class="atc_organizer_email"></var>
                   </var>
                </span>
 
