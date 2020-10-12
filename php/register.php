@@ -12,10 +12,6 @@ function clean_text($string){
 
 if (isset($name) && isset($email)) {
 	$file_open = fopen("../data.csv", "a");
-	$no_rows = count(file("../data.csv"));
-	if($no_rows > 1){
-		$no_rows = ($no_rows - 1) + 1;
-	}
 	$form_data = array(
 		'name' => $name,
 		'email' => $email,
