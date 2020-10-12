@@ -1,17 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- 
-
-Page    : index / Gather
-Version : 1.0
-Author  : Surjith S M
-URI     : http://themeforest.net/user/surjithctly
-
-Copyright © All rights Reserved
-Surjith S M / @surjithctly
-
--->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
