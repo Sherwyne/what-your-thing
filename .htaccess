@@ -1,0 +1,4 @@
+ReWriteEngine On
+
+ReWriteRule ^hello?$ /index.php [L]
+ReWriteRule ^success?$ /success.php [L]
