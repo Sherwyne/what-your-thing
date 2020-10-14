@@ -10,6 +10,13 @@
     font-weight: normal;
     font-style: normal
 }
+@font-face{
+    font-family: 'ING Me';
+    src: url('../../fonts/ing-me-regular.ttf');
+    src: url('../../fonts/ing-me-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
 
 .fa {
     display: inline-block;

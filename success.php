@@ -92,11 +92,7 @@
 
 
     <footer>
-        <div class="social-icons">
-            <a href="#" class="wow zoomIn"> <i class="fa fa-twitter"></i> </a>
-            <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
-            <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
-        </div>
+    
         <p> <small class="white">Copyright © ING 2020. All rights reserved. <a class="white" href="lpophillipines.net">LPO
                     Philippines</small></p>
 

@@ -140,11 +140,6 @@
 
     <footer>
 
-        <div class="social-icons">
-            <a href="#" class="wow zoomIn"> <i class="fa fa-twitter"></i> </a>
-            <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
-            <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
-        </div>
         <p class="white"> <small>Copyright © whatsyourthing 2020. All rights reserved.</small></p>
 
     </footer>
