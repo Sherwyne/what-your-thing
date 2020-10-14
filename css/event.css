@@ -21,7 +21,9 @@ TABLE OF CONTENTS
 /* ================================================
    Global Styles
    ================================================ */
-
+.white{
+    color: #ffffff;
+}
 body,
 html {
     overflow-x: hidden;
@@ -42,6 +44,12 @@ a {
     -o-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
 }
+.alert-custom {
+    padding: 15px;
+    margin:0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
 /* 
    Typography
    ---------- */
@@ -128,6 +136,11 @@ p,
     padding: 7px 20px;
     border-width: 0;
     /*transition:all .5s ease;*/
+}
+
+.btn-position{
+    margin-top: 500px;
+    /* margin-bottom: 100px; */
 }
 
 .btn-group-lg>.btn,
@@ -604,6 +617,10 @@ p,
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background-image: url("../images/ING\ header_extended.png");
+    background-size: cover;
+    background-position: center;
+    height: 645px;
 }
 
 .header_top-bg {
@@ -810,11 +827,11 @@ p,
    ================================================ */
 
 .countdown_wrap {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .countdown_wrap p {
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 0;
 }
 
@@ -928,8 +945,8 @@ p,
 .atc-style-theme .atcb-link {
     margin: 0;
     padding: 7px 25px;
-    color: #8C8C8C;
-    border: solid 2px #CACACA;
+    color: #ffffff;
+    border: solid 2px #ffffff;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
@@ -1006,8 +1023,8 @@ p,
    ================================================ */
 
 .highlight {
-    background: #f1f1f1;
-    padding: 30px 0;
+    background: #ff7702;
+    padding: 100px 0;
 }
 
 .section-title {
@@ -1791,9 +1808,11 @@ p,
    ================================================ */
 
 .footer-action {
-    background: #ffffff;
+    background-image: url("../images/footer.png");
     text-align: center;
-    padding-top: 60px;
+    background-size: cover;
+    background-position: center;
+    height: 374px;
 }
 
 .footer_bottom-bg {
@@ -1803,7 +1822,9 @@ p,
 }
 
 .footer-action .headline {
-    margin-top: 0;
+    margin-top: 120px;
+    color:#ff7702;
+    margin-bottom:30px;
 }
 
 .footer-action .headline-support {
@@ -1814,7 +1835,7 @@ p,
    ================================================ */
 
 footer {
-    background-color: #f1f1f1;
+    background-color: #ff7702;
     text-align: center;
     padding: 40px 0 30px;
 }
@@ -1830,7 +1851,7 @@ footer {
 
 .social-icons a i {
     background-color: rgb(255, 255, 255);
-    color: #f1f1f1;
+    color: #ff7702;
     font-size: 1.55em;
     width: 2.15em;
     height: 2.15em;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,36 +47,21 @@
 <body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
     <!--Preloader div-->
     <div class="preloader"></div>
-    
-    <header id="top" class="header">
-    <div class="alert alert-warning" role="alert">
-    <h4 class="alert-heading ">Welcome!</h4>
-    <p>Nice to have you here!  Welcome to ING pay virtual launch! <a href="#" class="alert-link" data-toggle="modal" data-target="#email-register">SIGN UP NOW</a> and get ready to do your thing with ING!<p>
-    </div>
-        <div class="container">
-
-            <div class="header_top-bg">
-                <div class="logo">
-                    <a href="#"><img src="images/event-logo.png" width="250px" alt="event-logo"></a>
-                    <!-- <h3 class="headline-support wow fadeInDown">ING</h3> -->
-                </div>
-            </div>
-
-            <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">WHAT'S YOUR THING</h1>
-            <!-- <h6 class="wow fadeInDown" data-wow-delay="0.2s">NICE TO HAVE YOU HERE! <br> WELCOME TO ING PAY VIRTUAL LAUNCH! <br>SIGN UP NOW AND GET READY TO DO YOUR THING WITH ING PAY!</h6> -->
-            <br><br>
-            <div class="header_bottom-bg">
-                <a class="btn btn-default btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#email-register">REGISTER NOW</a>
-                <br><br><br>
-                <p class="cta_urgency wow fadeIn" data-wow-delay="0.5s">
-                    <small>
-                    <b>Disclaimer: </b>We take precautions to protect your information. All personal data shared with us will only be used for the event. We do not intend to share your information publicly in accordance to the Data Privacy Act of 2012.
-
-                    </small>
-                </p>
-            </div>
-
+    <section class="message">
+        <div class="alert-custom alert-info text-center" role="alert">
+            <h4 class="alert-heading ">Welcome!</h4>
+            <p>Nice to have you here! Welcome to ING pay virtual launch! <a href="#" class="alert-link"
+                    data-toggle="modal" data-target="#email-register">SIGN UP NOW</a> and get ready to do your thing
+                with ING!
+            <p>
         </div>
+    </section>
+    <header id="top" class="header">
+
+        <!-- <div class="container" height="100%"> -->
+        <a class="btn btn-default btn-xl wow zoomIn btn-position" data-wow-delay="0.3s" href="#" data-toggle="modal"
+            data-target="#email-register">REGISTER NOW</a>
+        <!-- </div> -->
         <!-- end .container -->
     </header>
     <!-- end .header -->
@@ -83,14 +69,12 @@
     <!-- 
      Highlight Section
      ====================================== -->
-        
+
     <section class="highlight">
 
         <div class="container">
             <div class="countdown_wrap">
-
-                <h6 class="countdown_title text-center">EVENT WILL START IN <b>NOVEMBER 9, 2020</b></h6>
-
+                <h3 class="countdown_title text-center white">EVENT WILL START IN <b>NOVEMBER 9, 2020</b></h6>
                 <!-- Countdown JS for the Event Date Starts here.
     TIP: You can change your event time below in the Same Format.  -->
 
@@ -117,17 +101,17 @@
                      For Customization, Visit https://addtocalendar.com/ -->
 
                 <span class="addtocalendar atc-style-theme">
-                <a class="atcb-link"><i class="fa fa-calendar"> </i> Add to My Calendar</a>
-                  <var class="atc_event">
-                      <var class="atc_date_start">2020-11-09 00:00:00</var>
-                      <var class="atc_date_end">2020-11-09 24:00:00</var>
-                      <var class="atc_timezone">Philippines</var>
-                      <var class="atc_title">What's Your Thing | ING Event</var>
-                      <var class="atc_description">What's your thing is an event from ING</var>
-                      <var class="atc_organizer">ING</var>
-                      <var class="atc_organizer_email"></var>
-                  </var>
-               </span>
+                    <a class="atcb-link"><i class="fa fa-calendar"> </i> Add to My Calendar</a>
+                    <var class="atc_event">
+                        <var class="atc_date_start">2020-11-09 00:00:00</var>
+                        <var class="atc_date_end">2020-11-09 24:00:00</var>
+                        <var class="atc_timezone">Philippines</var>
+                        <var class="atc_title">What's Your Thing | ING Event</var>
+                        <var class="atc_description">What's your thing is an event from ING</var>
+                        <var class="atc_organizer">ING</var>
+                        <var class="atc_organizer_email"></var>
+                    </var>
+                </span>
 
             </div>
 
@@ -145,12 +129,9 @@
 
         <div class="container">
 
-            <h4 class="headline-support wow fadeInDown">WHAT'S YOUR THING?</h4>
             <h2 class="headline wow fadeInDown" data-wow-delay="0.1s">JOIN THE EVENT</h2>
-
-            <div class="footer_bottom-bg">
-                <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#email-register">REGISTER NOW</a>
-            </div>
+            <a class="btn btn-success btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal"
+                data-target="#email-register">REGISTER NOW</a>
 
         </div>
 
@@ -164,7 +145,7 @@
             <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
             <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
         </div>
-        <p> <small class="text-muted">Copyright © whatsyourthing 2020. All rights reserved.</small></p>
+        <p class="white"> <small>Copyright © whatsyourthing 2020. All rights reserved.</small></p>
 
     </footer>
 
@@ -178,22 +159,25 @@
         <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title text-center" id="register-now-label">Event Registration
-</h4>
+                    </h4>
                 </div>
                 <div class="modal-body">
 
                     <div class="registration-form">
 
-                        <form action="php/register.php" method="POST" target="_top" id="email-registration-form" data-redirect="success.php">
+                        <form action="php/register.php" method="POST" target="_top" id="email-registration-form"
+                            data-redirect="success.php">
 
                             <div class="row">
 
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>First Name</label>
-                                        <input type="text" class="form-control" name="first_name" placeholder="First Name" required>
+                                        <input type="text" class="form-control" name="first_name"
+                                            placeholder="First Name" required>
 
                                     </div>
 
@@ -201,7 +185,8 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Last Name</label>
-                                        <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
+                                        <input type="text" class="form-control" name="last_name" placeholder="Last Name"
+                                            required>
                                     </div>
                                 </div>
                             </div>
@@ -213,26 +198,32 @@
 
                             <div class="form-group">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+                                <input type="email" class="form-control" name="email" placeholder="Email Address"
+                                    required>
                             </div>
 
                             <div class="form-group">
                                 <label>Contact Number</label>
-                                <input type="text" class="form-control" name="contact" placeholder="Contact Number" required>
+                                <input type="text" class="form-control" name="contact" placeholder="Contact Number"
+                                    required>
                             </div>
 
-                           
+
                             <div class="form-group">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="agree" required> I agree to the <a href="terms.html">Terms</a> and <a href="term_privacy.html">Privacy Policy</a>
+                                        <input type="checkbox" name="agree" required> I agree to the <a
+                                            href="terms.html">Terms</a> and <a href="term_privacy.html">Privacy
+                                            Policy</a>
                                     </label>
                                 </div>
                             </div>
 
                             <div class="text-center top-space">
-                                <button type="submit" id="register-btn" class="btn btn-success btn-lg js-register-btn">Register</button>
-                                <div id="js-register-result" data-success-msg="Form submitted successfully." data-error-msg="Oops. Something went wrong."></div>
+                                <button type="submit" id="register-btn"
+                                    class="btn btn-success btn-lg js-register-btn">Register</button>
+                                <div id="js-register-result" data-success-msg="Form submitted successfully."
+                                    data-error-msg="Oops. Something went wrong."></div>
                             </div>
                         </form>
 

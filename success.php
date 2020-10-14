@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,8 @@
 
     <!-- SEO -->
     <meta name="author" content="Surjith S M">
-    <meta name="description" content="Gather is a responsive Template for Events, Meetups, Conference and other gatherings.">
+    <meta name="description"
+        content="Gather is a responsive Template for Events, Meetups, Conference and other gatherings.">
     <meta name="keywords" content="gather, responsive, event, meetup, template, conference, gather, rsvp, download">
 
     <!-- Favicons -->
@@ -64,16 +66,22 @@
             <h1 class="headline">Thank you! </h1>
             <!-- Message-->
             <div class="row">
-                <div class="alert alert-success col-md-8 col-md-offset-2" role="alert" >
+                <div class="alert alert-success col-md-8 col-md-offset-2" role="alert">
                     <!-- <h4 class="alert-heading">Well done!</h4> -->
-                    <p>Thank you for confirming your attendance! <br>You're almost done! Just one more step and you are ready to do your thing!<br> To get your full ING Pay experience, click this link and download the ING app</p>
-                    <p class="text-center"><a href="https://play.google.com/store/apps/details?id=com.ing.asia.mobile&hl=en&gl=US" class="btn btn-success btn-lg">DOWNLOAD</a></p>
+                    <p>Thank you for confirming your attendance! <br>You're almost done! Just one more step and you are
+                        ready to do your thing!<br> To get your full ING Pay experience, click this link and download
+                        the ING app</p>
+                    <p class="text-center"><a
+                            href="https://play.google.com/store/apps/details?id=com.ing.asia.mobile&hl=en&gl=US"
+                            class="btn btn-success btn-lg">DOWNLOAD</a></p>
                     <hr>
-                    <p class="mb-0">Exclusive offer awaits during the virtual launch so don't miss it! See you, virtually!</p>
+                    <p class="mb-0">Exclusive offer awaits during the virtual launch so don't miss it! See you,
+                        virtually!</p>
                 </div>
             </div>
 
-            <img id='https://qr.net/code/jK5YQd.png' src="https://qr.net/code/logo/jK5YQd.png" alt="" title="ING Download QR Code" width="200" height="200" />
+            <img id='https://qr.net/code/jK5YQd.png' src="https://qr.net/code/logo/jK5YQd.png" alt=""
+                title="ING Download QR Code" width="200" height="200" />
             <!-- Sub Title -->
 
 
@@ -84,7 +92,13 @@
 
 
     <footer>
-        <p> <small class="text-muted">Copyright © ING 2020. All rights reserved. <a href="lpophillipines.net">LPO Philippines</small></p>
+        <div class="social-icons">
+            <a href="#" class="wow zoomIn"> <i class="fa fa-twitter"></i> </a>
+            <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
+            <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
+        </div>
+        <p> <small class="white">Copyright © ING 2020. All rights reserved. <a class="white" href="lpophillipines.net">LPO
+                    Philippines</small></p>
 
     </footer>
 
