@@ -1,4 +1,6 @@
+<Files data.csv>
 AuthType Basic
-AuthName "Protected Area"
+AuthName "Prompt-Here"
 AuthUserFile /app/data/.htpasswd
 Require valid-user
+</Files>
