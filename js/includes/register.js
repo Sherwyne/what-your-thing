@@ -18,6 +18,7 @@ $(function() {
                 email: true
             },
             company: "required",
+            contact: "required",
             agree: "required"
         },
         messages: {
@@ -25,6 +26,7 @@ $(function() {
             last_name: "Enter your  last name",
             email: "Enter your email address",
             company: "Enter your company name",
+            contact: "Enter your contact number",
             agree: "Please accept our terms and privacy policy"
         },
         submitHandler: function(form) {

@@ -37,12 +37,6 @@
     <!-- Options: green, purple, red, yellow, mint, blue, black  -->
     <link href="css/themes/red.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-  <script src="js/ie/respond.min.js"></script>
-  <![endif]-->
-
     <!-- Modernizr -->
     <script src="js/modernizr.min.js"></script>
     <!-- Subtle Loading bar -->
@@ -52,57 +46,12 @@
 <body class="animate-page" data-spy="scroll" data-target="#navbar" data-offset="100">
     <!--Preloader div-->
     <div class="preloader"></div>
-
-    <!-- Fixed navbar -->
-    <!-- <nav class="navbar navbar-default navbar-fixed-top reveal-menu js-reveal-menu reveal-menu-hidden">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><h5>WHAT'S YOUR THING</h5></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#top">Home</a></li>
-                    <li><a href="#speakers">Speakers</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#sponsors" class="hidden-sm">Sponsors</a></li>
-                    <li><a href="#venue" class="hidden-sm">Venue</a></li> 
-                    <li><a href="#contact">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="shortcodes.html">Shortcodes</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Header Layouts</li>
-                            <li><a href="index.html">Solid Color</a></li>
-                            <li><a href="index-slider.html">Content Slider</a></li>
-                            <li><a href="index-parallax.html">Image Parallax</a></li>
-                            <li><a href="index-video.html">Video Background</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Form Variations</li>
-                            <li><a href="index.html">Paypal Registration</a></li>
-                            <li><a href="index-email.html">Email Registraion</a></li>
-                            <li><a href="index-mailchimp.html">Mailchimp Subscription</a></li>
-                            <li><a href="index-eventbrite.html">Eventbrite Integration</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            #nav-collapse
-        </div>
-    </nav> -->
-    <!-- // End Fixed navbar -->
-
+    
     <header id="top" class="header">
+    <div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading ">Welcome!</h4>
+    <p>Nice to have you here!  Welcome to ING pay virtual launch! <a href="#" class="alert-link" data-toggle="modal" data-target="#email-register">SIGN UP NOW</a> and get ready to do your thing with ING!<p>
+    </div>
         <div class="container">
 
             <div class="header_top-bg">
@@ -113,15 +62,17 @@
             </div>
 
             <h1 class="headline wow fadeInDown" data-wow-delay="0.1s">WHAT'S YOUR THING</h1>
-
-            <div class="when_where wow fadeIn" data-wow-delay="0.4s">
-                <p class="event_when">November 9, 2020</p>
-                <p class="event_where">Location of Event</p>
-            </div>
-
+            <!-- <h6 class="wow fadeInDown" data-wow-delay="0.2s">NICE TO HAVE YOU HERE! <br> WELCOME TO ING PAY VIRTUAL LAUNCH! <br>SIGN UP NOW AND GET READY TO DO YOUR THING WITH ING PAY!</h6> -->
+            <br><br>
             <div class="header_bottom-bg">
                 <a class="btn btn-default btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#email-register">REGISTER NOW</a>
-                <p class="cta_urgency wow fadeIn" data-wow-delay="0.5s"><small>ANY TEXT THAT YOU WANT TO ADD</small></p>
+                <br><br><br>
+                <p class="cta_urgency wow fadeIn" data-wow-delay="0.5s">
+                    <small>
+                    <b>Disclaimer: </b>We take precautions to protect your information. All personal data shared with us will only be used for the event. We do not intend to share your information publicly in accordance to the Data Privacy Act of 2012.
+
+                    </small>
+                </p>
             </div>
 
         </div>
@@ -132,15 +83,13 @@
     <!-- 
      Highlight Section
      ====================================== -->
-
+        
     <section class="highlight">
 
         <div class="container">
-            <p class="lead text-center">"What's Your Thing is an event from ING.</p>
-
             <div class="countdown_wrap">
 
-                <h6 class="countdown_title text-center">EVENT WILL START IN</h6>
+                <h6 class="countdown_title text-center">EVENT WILL START IN <b>NOVEMBER 9, 2020</b></h6>
 
                 <!-- Countdown JS for the Event Date Starts here.
     TIP: You can change your event time below in the Same Format.  -->
@@ -172,10 +121,9 @@
                   <var class="atc_event">
                       <var class="atc_date_start">2020-11-09 00:00:00</var>
                       <var class="atc_date_end">2020-11-09 24:00:00</var>
-                      <var class="atc_timezone">Philippines/Singapore</var>
+                      <var class="atc_timezone">Philippines</var>
                       <var class="atc_title">What's Your Thing | ING Event</var>
                       <var class="atc_description">What's your thing is an event from ING</var>
-                      <var class="atc_location">Philippines, Manila</var>
                       <var class="atc_organizer">ING</var>
                       <var class="atc_organizer_email"></var>
                   </var>
@@ -190,144 +138,6 @@
     <!-- end section.highlight -->
 
     <!-- 
-     Our Speakers
-     ====================================== -->
-
-    <section class="speakers" id="speakers">
-        <div class="container">
-
-            <div class="section-title wow fadeInUp">
-                <h4>OUR SPEAKERS</h4>
-            </div>
-
-            <div class="speaker-slider">
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                    <img src="images/avatar_1.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
-                    <img src="images/avatar_2.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                    <img src="images/avatar_3.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0.3s">
-                    <img src="images/avatar_4.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0.4s">
-                    <img src="images/avatar_5.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0.5s">
-                    <img src="images/avatar_6.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-
-                <!-- end .speaker-info -->
-                <div class="speaker-info wow fadeIn" data-wow-delay="0s">
-                    <img src="images/avatar_1.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0.1s">
-                    <img src="images/avatar_2.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-                <div class="speaker-info wow fadeIn" data-wow-delay="0.2s">
-                    <img src="images/avatar_3.png" alt="avatar" class="img-responsive center-block">
-                    <p>Speaker's Name</p>
-                    <span>Position</span>
-                </div>
-                <!-- end .speaker-info -->
-
-            </div>
-
-        </div>
-        <!-- end .container -->
-    </section>
-    <!-- end section.speakers -->
-
-    <!-- 
-     What to Expect : Benefits
-     ====================================== -->
-
-    <!-- TODO: Change Icons to Fonts for better theming. -->
-
-    <section class="benefits">
-
-        <div class="container">
-            <div class="section-title wow fadeInUp">
-                <h4>WHAT TO EXPECT</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="benefit-item wow fadeInLeft">
-                                <div class="benefit-icon"><i class="icon icon-bubble-love-streamline-talk"> </i></div>
-                                <h6 class="benefit-title">Benefit 1</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="benefit-item wow fadeInRight">
-                                <div class="benefit-icon"><i class="icon icon-map-pin-streamline"> </i></div>
-                                <h6 class="benefit-title">Benefit 2</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="benefit-item wow fadeInLeft">
-                                <div class="benefit-icon"> <i class="icon icon-cocktail-mojito-streamline"> </i></div>
-                                <h6 class="benefit-title">Benefit 3</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="benefit-item wow fadeInRight">
-                                <div class="benefit-icon"> <i class="icon icon-armchair-chair-streamline"> </i></div>
-                                <h6 class="benefit-title">Benefit 1</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie libero metus, vel sodales ante lacinia eget. Donec sodales metus quis neque aliquam, nec cursus ex hendrerit. Praesent quam ex, varius id leo tristique, tempus porttitor arcu. Aenean ornare in est nec consequat. Vestibulum euismod vestibulum odio et semper. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- end .container -->
-    </section>
-    <!-- end section.benefits -->
-
-    <!-- 
      Footer Call to Action
      ====================================== -->
 
@@ -335,7 +145,7 @@
 
         <div class="container">
 
-            <h4 class="headline-support wow fadeInDown">WHAT'S YOUR THINGS?</h4>
+            <h4 class="headline-support wow fadeInDown">WHAT'S YOUR THING?</h4>
             <h2 class="headline wow fadeInDown" data-wow-delay="0.1s">JOIN THE EVENT</h2>
 
             <div class="footer_bottom-bg">
@@ -354,7 +164,7 @@
             <a href="#" class="wow zoomIn" data-wow-delay="0.2s"> <i class="fa fa-facebook"></i> </a>
             <a href="#" class="wow zoomIn" data-wow-delay="0.4s"> <i class="fa fa-linkedin"></i> </a>
         </div>
-        <p> <small class="text-muted">Copyright © 2020. All rights reserved.</small></p>
+        <p> <small class="text-muted">Copyright © whatsyourthing 2020. All rights reserved.</small></p>
 
     </footer>
 
@@ -397,48 +207,25 @@
                             </div>
 
                             <div class="form-group">
+                                <label>Company</label>
+                                <input type="text" class="form-control" name="company" placeholder="Company" required>
+                            </div>
+
+                            <div class="form-group">
                                 <label>Email Address</label>
                                 <input type="email" class="form-control" name="email" placeholder="Email Address" required>
                             </div>
 
                             <div class="form-group">
-                                <label>Company</label>
-                                <input type="text" class="form-control" name="company" placeholder="Company" required>
+                                <label>Contact Number</label>
+                                <input type="text" class="form-control" name="contact" placeholder="Contact Number" required>
                             </div>
 
-                            <!-- <div class="row"> -->
-
-                                <!-- <div class="col-sm-7">
-
-                                    <div class="form-group">
-                                        <label>Choose a Pass</label>
-                                        <select class="form-control" name="pass" required>
-                                            <option value="">Choose...</option>
-                                            <option value="Silver Pass">Silver Pass $49.00 USD</option>
-                                            <option value="Gold Pass">Gold Pass $99.00 USD</option>
-                                            <option value="VIP Pass">VIP Pass $149.00 USD</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-sm-5">
-
-                                    <div class="form-group">
-                                        <label>No. of Seats</label>
-                                        <select class="form-control" name="seats" required>
-                                            <option value="">Choose...</option>
-                                            <option value="1">1 seat</option>
-                                            <option value="2">2 seats</option>
-                                            <option value="3">3 seats</option>
-                                        </select>
-                                    </div>
-
-                                </div> -->
-
-                            <!-- </div> -->
+                           
                             <div class="form-group">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="agree" required> I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>
+                                        <input type="checkbox" name="agree" required> I agree to the <a href="terms.html">Terms</a> and <a href="term_privacy.html">Privacy Policy</a>
                                     </label>
                                 </div>
                             </div>

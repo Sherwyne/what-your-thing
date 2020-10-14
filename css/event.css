@@ -1791,7 +1791,7 @@ p,
    ================================================ */
 
 .footer-action {
-    background: #f1f1f1;
+    background: #ffffff;
     text-align: center;
     padding-top: 60px;
 }
@@ -1814,6 +1814,7 @@ p,
    ================================================ */
 
 footer {
+    background-color: #f1f1f1;
     text-align: center;
     padding: 40px 0 30px;
 }
@@ -1828,8 +1829,8 @@ footer {
 }
 
 .social-icons a i {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    color: #f1f1f1;
     font-size: 1.55em;
     width: 2.15em;
     height: 2.15em;
