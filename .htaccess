@@ -1,6 +1,6 @@
 <Files data.csv>
 AuthType Basic
 AuthName "Prompt-Here"
-AuthUserFile /app/data/.htpasswd
+AuthUserFile /app/.htpasswd
 Require valid-user
 </Files>
