@@ -1,4 +1,10 @@
 AuthType Basic
 AuthName "Restricted Content"
-AuthUserFile /app/www/.htpasswd
+AuthUserFile /app/data/.htpasswd
 Require valid-user
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
