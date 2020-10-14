@@ -1023,7 +1023,7 @@ p,
    ================================================ */
 
 .highlight {
-    background: #ff7702;
+    background: #FF6200;
     padding: 50px 0;
 }
 
@@ -1823,7 +1823,7 @@ p,
 
 .footer-action .headline {
     margin-top: 120px;
-    color:#ff7702;
+    color:#FF6200;
     margin-bottom:30px;
 }
 
@@ -1835,7 +1835,7 @@ p,
    ================================================ */
 
 footer {
-    background-color: #ff7702;
+    background-color: #FF6200;
     text-align: center;
     padding: 40px 0 30px;
 }
@@ -1851,7 +1851,7 @@ footer {
 
 .social-icons a i {
     background-color: rgb(255, 255, 255);
-    color: #ff7702;
+    color: #FF6200;
     font-size: 1.55em;
     width: 2.15em;
     height: 2.15em;
