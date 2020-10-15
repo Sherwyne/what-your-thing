@@ -60,10 +60,10 @@
         <div class="container">
             <!-- Startup Logo -->
             <div class="logo">
-                <a href="#"><img src="images/check.png" alt="Error Icon"></a>
+                <img src="images/check.png" alt="Check Icon">
             </div>
             <!-- Hero Title -->
-            <h1 class="headline">Thank you! </h1>
+        <h1 class="headline orange">Thank you! </h1>
             <!-- Message-->
             <div class="row">
                 <div class="alert alert-success col-md-8 col-md-offset-2" role="alert">
@@ -73,15 +73,15 @@
                         the ING app</p>
                     <p class="text-center"><a
                             href="https://play.google.com/store/apps/details?id=com.ing.asia.mobile&hl=en&gl=US"
-                            class="btn btn-success btn-lg">DOWNLOAD</a></p>
-                    <hr>
+                            class="btn btn-success btn-thankyou btn-lg">DOWNLOAD</a></p>
+                    <hr class="hr-thankyou">
                     <p class="mb-0">Exclusive offer awaits during the virtual launch so don't miss it! See you,
                         virtually!</p>
                 </div>
             </div>
 
-            <img id='https://qr.net/code/jK5YQd.png' src="https://qr.net/code/logo/jK5YQd.png" alt=""
-                title="ING Download QR Code" width="200" height="200" />
+            <img src="images/qr_code.png" alt="ING QR CODE" title="ING Download QR Code" width="200"
+                height="200" />
             <!-- Sub Title -->
 
 
@@ -92,8 +92,9 @@
 
 
     <footer>
-    
-        <p> <small class="white">Copyright © ING 2020. All rights reserved. <a class="white" href="lpophillipines.net">LPO
+
+        <p> <small class="white">Copyright © ING 2020. All rights reserved. <a class="white"
+                    href="lpophillipines.net">LPO
                     Philippines</small></p>
 
     </footer>

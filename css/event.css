@@ -26,13 +26,19 @@ TABLE OF CONTENTS
 .white{
     color: #ffffff;
 }
+.orange{
+    color: #FF6200;
+}
+.logo img{
+    border-color: #FF6200;
+}
 body,
 html {
     overflow-x: hidden;
 }
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'ING Me';
     font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
@@ -52,6 +58,30 @@ a {
     border: 1px solid transparent;
     border-radius: 4px;
   }
+.alert-success{
+    background-color: #FF6200;
+    color: #ffffff;
+    border-color: #FF6200;
+}
+.hr-thankyou{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid white !important;
+}
+.btn-thankyou{
+    color: #FF6200;
+    background-color: #ffffff;
+    border: 2px solid #FF6200;
+
+}
+.btn-thankyou:hover{
+    margin:0;
+    color: #ffffff;
+    background-color: #FF6200;
+    border: 2px solid #ffffff;
+
+}
 /* 
    Typography
    ---------- */
@@ -67,7 +97,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'ING Me';
     font-weight: 700;
     line-height: 1.3;
 }
@@ -302,7 +332,7 @@ p,
     padding: 5px 20px;
     padding-right: 40px;
     color: #737373;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ING Me';
 }
 
 @media (min-width: 768px) {
@@ -638,7 +668,7 @@ p,
 }
 
 .headline-support {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'ING Me';
     font-weight: 600;
 }
 
@@ -866,7 +896,7 @@ p,
     height: 108px;
     line-height: 1.0;
     position: relative;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'ING Me';
 }
 
 #countdown li p {
@@ -1384,7 +1414,7 @@ p,
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'ING Me';
     font-style: italic;
     position: relative;
     line-height: 28px;
@@ -1592,7 +1622,7 @@ p,
     font-size: 60px;
     font-weight: 700;
     margin: 10px 0;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'ING Me';
     line-height: 1.4;
 }
 
@@ -1720,7 +1750,7 @@ p,
     text-align: center;
     font-weight: 700;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'ING Me';
 }
 
 .infobox-inner:after,
