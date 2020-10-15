@@ -208,7 +208,7 @@
                                 <div class="checkbox">
                                     <label>
                                         <input type="checkbox" name="agree" required> I agree to the <a
-                                            href="terms.html">Terms</a> and <a href="term_privacy.html">Privacy
+                                            href="terms.html">Terms</a> and <a href="privacy.html">Privacy
                                             Policy</a>
                                     </label>
                                 </div>
