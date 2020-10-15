@@ -994,8 +994,9 @@ p,
 .atc-style-theme .atcb-link:hover,
 .atc-style-theme .atcb-link:active,
 .atc-style-theme .atcb-link:focus {
-    border-color: #818181;
-    color: #8C8C8C;
+    border-color: #ffffff;
+    color: #FF6200;
+    background-color: #ffffff;
 }
 
 .atc-style-theme .atcb-list {
